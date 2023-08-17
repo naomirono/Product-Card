@@ -59,7 +59,7 @@ const Product = () => {
               
               <p className="text-gray-600 font-semibold">${product.price}</p>
               <div className="flex mt-2 space-x-2">
-                <button className="bg-blue-500 hover:bg-blue-600 text-white px-2 py-1 rounded">
+                <button className="bg-blue-500 hover:bg-blue-600 text-white px-2 py-1 rounded mr-4">
                   Add to Cart
                 </button>
                 <button className="text-gray-500 hover:text-orange-500 ">
