@@ -76,7 +76,7 @@ const Product = () => {
               <p className="text-gray-600 font-semibold">${product.price}</p>
               <div className="flex items-center space-x-1 mt-2 mb-2">
                 {renderStars(product.rating)} 
-                <span className="text-gray-600">{product.reviews} reviews</span>
+                <span className="text-gray-600 pl-2">{product.reviews} reviews</span>
               </div>
 
               <div className="flex mt-2 space-x-4">
