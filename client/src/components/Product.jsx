@@ -83,10 +83,10 @@ const Product = () => {
                 <button className="bg-blue-500 hover:bg-blue-600 text-white px-2 py-1 rounded mr-10">
                   Add to Cart
                 </button>
-                <button className="text-gray-500 hover:text-gray-700 ml-4">
+                <button className="text-gray-500 hover:text-orange-400 ml-4">
                   <FaHeart />
                 </button>
-                <button className="text-gray-500 hover:text-red-700">
+                <button className="text-gray-500 hover:text-orange-400">
                   <FaEye />
                 </button>
               </div>
