@@ -60,7 +60,7 @@ const Product = () => {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-6 my-10">
-      <h2 className="text-5xl font-semibold text-center mb-6">Latest <span className="text-orange-400">Products</span></h2>
+      <h2 className="text-5xl font-semibold text-center mb-14">Latest <span className="text-orange-400">Products</span></h2>
       <Slider {...sliderSettings}>
         {products.map(product => (
           <div key={product._id} className="p-2">
@@ -72,23 +72,25 @@ const Product = () => {
                 style={{ transform: "rotate(-30deg)", height: "100%" }}
               />
               <h3 className="text-gray-800 font-semibold mb-2">{product.title}</h3>
-              <p className="text-gray-600">{product.description}</p>
+              <p className="text-gray-600 mb-2">{product.description}</p>
               <p className="text-gray-600 font-semibold">${product.price}</p>
-              <div className="flex items-center space-x-1 mt-2">
+              <div className="flex items-center space-x-1 mt-2 mb-2">
                 {renderStars(product.rating)} 
                 <span className="text-gray-600">{product.reviews} reviews</span>
               </div>
-              <div className="flex mt-2 space-x-2">
-                <button className="bg-blue-500 hover:bg-blue-600 text-white px-2 py-1 rounded">
+
+              <div className="flex mt-2 space-x-4">
+                <button className="bg-blue-500 hover:bg-blue-600 text-white px-2 py-1 rounded mr-10">
                   Add to Cart
                 </button>
-                <button className="text-gray-500 hover:text-gray-700">
+                <button className="text-gray-500 hover:text-gray-700 ml-4">
                   <FaEye />
                 </button>
                 <button className="text-gray-500 hover:text-red-700">
                   <FaHeart />
                 </button>
               </div>
+
             </div>
           </div>
         ))}
