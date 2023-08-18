@@ -84,10 +84,10 @@ const Product = () => {
                   Add to Cart
                 </button>
                 <button className="text-gray-500 hover:text-gray-700 ml-4">
-                  <FaEye />
+                  <FaHeart />
                 </button>
                 <button className="text-gray-500 hover:text-red-700">
-                  <FaHeart />
+                  <FaEye />
                 </button>
               </div>
 
