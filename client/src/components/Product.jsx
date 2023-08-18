@@ -59,12 +59,12 @@ const Product = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-6">
-      <h2 className="text-3xl font-semibold text-center mb-6">Product Slider</h2>
+    <div className="max-w-6xl mx-auto px-4 py-6 my-10">
+      <h2 className="text-5xl font-semibold text-center mb-6">Latest <span className="text-orange-400">Products</span></h2>
       <Slider {...sliderSettings}>
         {products.map(product => (
           <div key={product._id} className="p-2">
-            <div className="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
+            <div className="bg-white rounded-lg shadow-md p-4 flex flex-col ">
               <img 
                 src={product.image} 
                 alt={product.title} 
@@ -75,8 +75,8 @@ const Product = () => {
               <p className="text-gray-600">{product.description}</p>
               <p className="text-gray-600 font-semibold">${product.price}</p>
               <div className="flex items-center space-x-1 mt-2">
-                {renderStars(product.rating)} {/* Display stars */}
-                <span className="text-gray-600">({product.reviews} reviews)</span>
+                {renderStars(product.rating)} 
+                <span className="text-gray-600">{product.reviews} reviews</span>
               </div>
               <div className="flex mt-2 space-x-2">
                 <button className="bg-blue-500 hover:bg-blue-600 text-white px-2 py-1 rounded">
