@@ -84,7 +84,7 @@ const Product = () => {
                 <span className="text-gray-600 pl-2">{product.reviews} reviews</span>
               </div>
 
-              <div className="flex mt-2 space-x-4">
+              <div className="flex mt-2 space-x-2">
                 <button className="bg-blue-500 hover:bg-blue-600 text-white px-2 py-1 rounded mr-10">
                   Add to Cart
                 </button>
