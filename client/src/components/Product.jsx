@@ -69,7 +69,6 @@ const Product = () => {
                 src={product.image} 
                 alt={product.title} 
                 className="w-full h-50 rounded object-cover mb-2"
-              
               />
 
               <button className="bg-gray-200 py-1 px-3 rounded-lg text-sm w-1/3 hover:bg-orange-400 ">
