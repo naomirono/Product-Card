@@ -64,13 +64,18 @@ const Product = () => {
       <Slider {...sliderSettings}>
         {products.map(product => (
           <div key={product._id} className="p-2">
-            <div className="bg-white rounded-lg shadow-md p-4 flex flex-col ">
+            <div className="bg-white rounded-lg shadow-md p-4 flex flex-col relative">
               <img 
                 src={product.image} 
                 alt={product.title} 
-                className="w-full h-40 object-cover mb-2"
-                style={{ transform: "rotate(-30deg)", height: "100%" }}
+                className="w-full h-50 rounded object-cover mb-2"
+              
               />
+
+              <button className="bg-gray-200 py-1 px-3 rounded-lg text-sm w-1/3 hover:bg-orange-400 ">
+                Official Store
+              </button>
+
               <h3 className="text-gray-800 font-semibold mb-2">{product.title}</h3>
               <p className="text-gray-600 mb-2">{product.description}</p>
               <p className="text-gray-600 font-semibold">${product.price}</p>
