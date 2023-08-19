@@ -59,7 +59,8 @@ const Product = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-6 my-10">
+  <div className='bg-gray-100'>
+    <div className="max-w-6xl mx-auto px-4 py-12">
       <h2 className="text-5xl font-semibold text-center mb-14">Featured <span className="text-orange-400">Products</span></h2>
       <Slider {...sliderSettings}>
         {products.map(product => (
@@ -100,6 +101,7 @@ const Product = () => {
         ))}
       </Slider>
     </div>
+  </div>   
   );
 };
 
