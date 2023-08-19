@@ -85,7 +85,7 @@ const Product = () => {
               </div>
 
               <div className="flex mt-2 space-x-2">
-                <button className="bg-blue-500 hover:bg-blue-600 text-white px-2 py-1 rounded mr-10">
+                <button className="bg-blue-500 hover:bg-blue-600 text-white px-2 py-1 rounded mr-2">
                   Add to Cart
                 </button>
                 <button className="bg-gray-200 text-gray-500 px-2 py-1 rounded hover:text-orange-400 ml-4">
