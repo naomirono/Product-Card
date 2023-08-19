@@ -72,7 +72,7 @@ const Product = () => {
                 className="w-full h-50 rounded object-cover mb-2"
               />
 
-              <button className="bg-gray-200 py-1 px-3 rounded-lg text-sm w-1/3 hover:bg-orange-400 ">
+              <button className="bg-gray-200 py-1 px-3 rounded-lg text-sm w-1/3 hover:bg-orange-400 mt-1">
                 Official Store
               </button>
 
