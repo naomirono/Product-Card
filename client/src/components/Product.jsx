@@ -75,7 +75,7 @@ const Product = () => {
                 Official Store
               </button>
 
-              <h3 className="text-gray-800 font-semibold mb-2">{product.title}</h3>
+              <h3 className="text-gray-800 font-semibold mt-2 mb-2">{product.title}</h3>
               <p className="text-gray-600 mb-2">{product.description}</p>
               <p className="text-gray-600 font-semibold">${product.price}</p>
               <div className="flex items-center space-x-1 mt-2 mb-2">
