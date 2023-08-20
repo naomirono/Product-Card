@@ -22,7 +22,7 @@ const Featured = () => {
           </div>
         </div>
         <div className="content flex-1">
-          <h3 className="text-3xl font-semibold mb-2">Womens Air Jordan 4 Sail Muslin</h3>
+          <h3 className="text-3xl font-semibold mb-2">Air Jordan 4 x Off-White "Sail Muslin"</h3>
           <div className="stars flex items-center space-x-1">
             <FaStar className="text-orange-500 text-2xl" />
             <FaStar className="text-orange-500 text-2xl" />
