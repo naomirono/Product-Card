@@ -8,6 +8,14 @@ const productSchema = new mongoose.Schema({
   image: String,
   rating:String,
   reviews:String,
+  featuredImage0:String,
+  featuredImage1:String,
+  featuredImage2:String,
+  featuredImage3:String,
+  featuredImage4:String,
+  featuredTitle: String,
+  featuredDescription:String,
+  featuredPrice:String,
 });
 
 const Product = mongoose.model('Product', productSchema);
