@@ -7,8 +7,12 @@ function App() {
 
   return (
     <>
-      <Product/>
-      <Featured/>
+      <Router>
+      <Switch>
+        <Route path="/" exact component={Product} />
+        <Route path="/featured" component={Featured} />
+      </Switch>
+    </Router>
     </>
   )
 }
