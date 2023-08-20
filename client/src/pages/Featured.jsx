@@ -7,6 +7,7 @@ import image3 from '../assets/4.jpg'
 
 const Featured = () => {
   return (
+   <div className='bg-gray-100'>  
     <div className="max-w-7xl mx-auto px-4 py-12">
       <div className=" flex flex-wrap gap-6 border border-solid border-gray-300 rounded bg-white p-8 items-center my-6 shadow-md">
         <div className="image-container flex flex-1 items-center">
@@ -47,6 +48,7 @@ const Featured = () => {
         </div>
       </div>
     </div>
+   </div>  
   );
 };
 
