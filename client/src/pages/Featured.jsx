@@ -33,7 +33,7 @@ const Featured = () => {
 
   return (
     <div className='bg-gray-100'> 
-    {products.map(product => (
+     {products.map(product => (
           <div key={product._id} className="p-2"> 
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className=" flex flex-wrap gap-6 border border-solid border-gray-300 rounded bg-white p-8 items-center my-6 shadow-md">
