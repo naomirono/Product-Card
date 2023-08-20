@@ -13,7 +13,6 @@ const productSchema = new mongoose.Schema({
   featuredImage2:String,
   featuredImage3:String,
   featuredImage4:String,
-  featuredTitle: String,
   featuredDescription:String,
   featuredPrice:String,
 });
