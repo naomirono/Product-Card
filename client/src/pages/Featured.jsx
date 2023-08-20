@@ -78,7 +78,7 @@ const Featured = () => {
 
     const stars = [];
     for (let i = 0; i < fullStarCount; i++) {
-      stars.push(<FaStar key={`full-star-${i}`} className="text-orange-500 text-2xl" />);
+      stars.push(<FaStar key={`full-star-${i}`} className="text-yellow-500 text-2xl" />);
     }
     for (let i = 0; i < remainingStarCount; i++) {
       stars.push(<FaStar key={`empty-star-${i}`} className="text-gray-300 text-2xl" />);
