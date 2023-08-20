@@ -22,7 +22,7 @@ const Featured = () => {
           </div>
         </div>
         <div className="content flex-1">
-          <h3 className="text-3xl font-semibold mb-2">Air Jordan 4 x Off-White "Sail Muslin"</h3>
+          <h3 className="text-3xl font-semibold mb-2">Air Jordan 4 x Off-White "Sail"</h3>
           <div className="stars flex items-center space-x-1">
             <FaStar className="text-orange-500 text-2xl" />
             <FaStar className="text-orange-500 text-2xl" />
@@ -31,7 +31,7 @@ const Featured = () => {
             <FaStar className="text-orange-500 text-2xl" />
           </div>
           <p className="text-gray-600 text-lg py-4">
-                    The women's Air Jordans 4 “Sail” is a highly desirable collaboration between Virgil Abloh's fashion
+                    The Air Jordans 4 x Off-White “Sail” is a highly desirable collaboration between Virgil Abloh's fashion
                     label22 and Jordans Brand on Michael Jordans's fourth signature shoe.The signature “quotations”
                     aesthetic of Abloh's Jordans Brand collaborations underpins this Sail colored shoe, including “Air”
                     branding printed on the midsole and “shoelace” detailing in black lettering on the laces.
@@ -40,7 +40,7 @@ const Featured = () => {
                     white midsole.
           </p>
           <div className="price text-3xl font-semibold mb-2">
-            $110 <span className="text-orange-500 text-lg line-through">$115</span>
+            $129 <span className="text-orange-500 text-lg line-through">$132</span>
           </div>
           <a href="#" className="btn bg-blue-500 text-white py-2 px-4 rounded inline-block">
             add to cart
