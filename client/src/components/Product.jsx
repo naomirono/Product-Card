@@ -92,7 +92,7 @@ const Product = () => {
                 <button className="bg-gray-200 text-gray-500 px-2 py-1 rounded hover:text-orange-400 ml-4">
                   <FaHeart />
                 </button>
-                <Link to="/featured" className="bg-gray-200 text-gray-500 px-2 py-1 rounded hover:text-orange-400">
+                <Link to={`/featured/${product._id}`} className="bg-gray-200 text-gray-500 px-2 py-1 rounded hover:text-orange-400">
                     <FaEye />
                   </Link>
               </div>
