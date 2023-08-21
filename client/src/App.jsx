@@ -8,10 +8,10 @@ function App() {
     <Router>
       <Routes> 
         <Route path="/" element={<Product />} />
-        <Route path="/featured" element={<Featured />} />
+        <Route path="/featured/:productId" element={<Featured />} />
       </Routes>
     </Router>
   );
 }
 
-export default App;
+export default App; 
