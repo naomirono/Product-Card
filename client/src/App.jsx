@@ -1,12 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import Routes
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
 import Product from './components/Product';
 import Featured from './pages/Featured';
 
 function App() {
   return (
     <Router>
-      <Routes> {/* Use Routes instead of Switch */}
+      <Routes> 
         <Route path="/" element={<Product />} />
         <Route path="/featured" element={<Featured />} />
       </Routes>
