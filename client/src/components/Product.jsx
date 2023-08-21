@@ -4,6 +4,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { FaEye, FaHeart, FaStar } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Product = () => {
   const [products, setProducts] = useState([]);
@@ -91,9 +92,9 @@ const Product = () => {
                 <button className="bg-gray-200 text-gray-500 px-2 py-1 rounded hover:text-orange-400 ml-4">
                   <FaHeart />
                 </button>
-                <button className="bg-gray-200 text-gray-500 px-2 py-1 rounded hover:text-orange-400">
-                  <FaEye />
-                </button>
+                <Link to="/featured" className="bg-gray-200 text-gray-500 px-2 py-1 rounded hover:text-orange-400">
+                    <FaEye />
+                  </Link>
               </div>
 
             </div>
